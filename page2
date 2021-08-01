@@ -3,4 +3,28 @@ end
 -- oh look default is indent with spaces, better change that to tab
 
 **bold**
--- why is this not working
+-- does this only work in READMEs?
+
+> quote
+- bullet point
+```
+command
+command2
+```
+1. first
+  - second
+    - third
+ 
+um
+ 
+ - [x] .
+ - [ ] .
+ 
+```lua
+print()
+do
+  local localItem
+end
+
+-- bruh indents switch back to space even though i made it tab
+```
